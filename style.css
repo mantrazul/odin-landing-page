@@ -1,7 +1,46 @@
-h1 {
-    color: blue;
+body {
+    margin: auto;
+    margin-top: 100px;
 }
+
+nav h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+}
+
+.header {
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-width: #24344b;
+    flex: 1;
+    border: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 .navbar {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: lighter;
+}
+
+.navlist a:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
