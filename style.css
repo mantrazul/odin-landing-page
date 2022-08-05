@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: auto;
     margin-top: 100px;
+    background-color: #1f2937;
 }
 
 nav h1 {
@@ -12,17 +18,27 @@ nav h1 {
 .header {
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
-    border-bottom-width: #24344b;
+    background-image: linear-gradient(to right, #1f2937 , rgb(16, 69, 100));
     flex: 1;
-    border: 1px;
+    border-bottom: 1px solid lightblue;
     position: fixed;
     top: 0;
     width: 100%;
 }
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
 
+}
+.logo img {
+    width: 60px;
+    max-height: fit-content;
+    margin-right: 20px;
+}
 
 .navbar {
     display: flex;
+    height: 75px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -43,4 +59,73 @@ nav h1 {
 .navlist a:hover {
     text-decoration: none;
     font-weight: bold;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.main-page h2 {
+    display: flex;
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+
+.main-page p {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-page button {
+    max-width: 100px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.headerImage {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.main-page img {
+    display: flex;
+    max-width:150%;
+    max: height 150%;x;
+    border-radius: 10px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #154250 , rgb(16, 69, 100));
+    color: #f9faf8;
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #19768d;
 }
