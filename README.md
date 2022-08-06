@@ -16,4 +16,4 @@ This is part project to learn CSS/HTML in the [Odin Project](https://www.theodin
 ---
 
 ## **Where can you see my attempt?**
-[*to be added*](https://www.youtube.com/watch?v=Hi2OSnyERq0&t=1373s)
+[Here](https://mantrazul.github.io/odin-landing-page/)
