@@ -121,7 +121,7 @@ a:hover {
 }
 
 .main-page .button {
-    background-image: linear-gradient(to right, #154250 , #3882f6);
+    background-image: linear-gradient(to right, #357fe6 , #3882f6);
     color: #f9faf8;
     width: 170px;
     height: 40px;
@@ -133,7 +133,8 @@ a:hover {
 }
 
 .main-page .button:hover {
-    background: #05404b;
+    background: #f9faf8;
+    color: #3882f6;
 }
 
 /* Cards Section */
@@ -213,6 +214,8 @@ a:hover {
     font-size: 20px;
 }
 
+/* call for action */
+
 .contact {
     background-color: #f9faf8;
     padding: 50px 50px;
@@ -255,4 +258,13 @@ a:hover {
     color: #3882f6;
     font-weight: bold;
 }
-/* call for action */
+
+/* footer */
+
+footer {
+    margin: 20px 20px;
+    text-align: center;
+    font-family: 'Robota', sans-serif;
+    color: #f9faf8;
+    font-weight: bold;
+}
